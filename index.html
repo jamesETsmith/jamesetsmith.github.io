@@ -52,24 +52,49 @@
       <h2>Research</h2>
       <div class="row">
         <div class="col-12 col-12-small">
-          <p>Under construction, check back soon! In the meantime, try playing around with these molecules!</p>
+          <p>Generally speaking, my research focuses on two areas: 1) developing highly accurate methods for small to
+            medium sized molecules
+            and 2) maintaining and supporting the open source quantum chemistry package <a
+              href="https://github.com/pyscf/pyscf">PySCF</a>.
+            All of my projects involve a substantial amount of programming and I spend a lot of time studying and
+            improving the performance of software.</p>
+
+          <h4>High Accuracy Quantum Chemistry</h4>
+          <p>In graduate school, I worked on methods to treat "strong correlation", which often occurs in chemical
+            systems involving transition metals, bond breaking, or electronic excitations.
+            In systems likes these, we have to turn to expensive wave function based methods like <a
+              href="https://en.wikipedia.org/wiki/Multi-configurational_self-consistent_field#Complete_active_space_SCF">CASSCF</a>.
+            To apply these methods to larger and more complex (i.e. realistic) systems, I helped develop more efficient
+            approximate methods that yield accurate results at a greatly reduced cost.
+          </p>
+
+          Below are some of the systems I worked with. Try moving them around with your mouse, they're interactive!
+          <div class="col-12 col-12-small">
+            <div style="height:400px; width:400px; display: inline-block;" class='viewer_3Dmoljs' data-datatype='xyz'
+              data-backgroundcolor='0xf4f4f4'
+              data-href='https://raw.githubusercontent.com/jamesETsmith/hci_nuc_gradients/master/geometry_opt/hciscf/uhf_survey/_geometries/A.xyz'
+              data-style='stick;sphere:radius~0.5;'>
+            </div>
+            <div style="height:400px; width:400px;  display: inline-block;" class='viewer_3Dmoljs'
+              data-backgroundcolor='0xf4f4f4' data-datatype='xyz' data-href="assets/xyz/fe_porphyrin.xyz"
+              data-style='stick;sphere:radius~0.5;'>
+            </div>
+            <div style="height:400px; width:400px;  display: inline-block;" class='viewer_3Dmoljs'
+              data-backgroundcolor='0xf4f4f4' data-type="xyz" data-href="assets/xyz/ppix_anion.xyz"
+              data-style='stick;sphere:radius~0.5;'>
+            </div>
+            <div style="height:400px; width:400px;  display: inline-block;" class='viewer_3Dmoljs'
+              data-backgroundcolor='0xf4f4f4' data-type="xyz"
+              data-href="https://raw.githubusercontent.com/jamesETsmith/hci_nuc_gradients/master/gradients/ni_edt2/ni_edt2.xyz"
+              data-style='stick;sphere:radius~0.5;'>
+            </div>
+          </div>
+
+          <h4>PySCF</h4>
+          <p>More on this soon!</p>
+
         </div>
-        <div class="col-12 col-12-small">
-          <div style="height:400px; width:400px; display: inline-block;" class='viewer_3Dmoljs' data-datatype='xyz'
-            data-backgroundcolor='0xf4f4f4'
-            data-href='https://raw.githubusercontent.com/jamesETsmith/hci_nuc_gradients/master/geometry_opt/hciscf/uhf_survey/_geometries/A.xyz'
-            data-style='stick;sphere:radius~0.5;'>
-          </div>
-          <div style="height:400px; width:400px;  display: inline-block;" class='viewer_3Dmoljs'
-            data-backgroundcolor='0xf4f4f4' data-cid="66868" data-style='stick;sphere:radius~0.5;'>
-          </div>
-          <div style="height:400px; width:400px;  display: inline-block;" class='viewer_3Dmoljs'
-            data-backgroundcolor='0xf4f4f4' data-cid="7080" data-style='stick;sphere:radius~0.5;'>
-          </div>
-          <div style="height:400px; width:400px;  display: inline-block;" class='viewer_3Dmoljs'
-            data-backgroundcolor='0xf4f4f4' data-cid="92934" data-style='stick;sphere:radius~0.5;'>
-          </div>
-        </div>
+
 
       </div>
 
@@ -223,12 +248,16 @@
           <tbody>
             <tr>
               <td><a href="https://github.com/pyscf/pyscf">PySCF</a></td>
-              <td>Python module for quantum chemistry</td>
+              <td>An accessible Python package for quantum chemistry.</td>
             </tr>
             <tr>
               <td><a href="https://github.com/sanshar/Dice">Dice</a></td>
               <td>Implementation of the heat-bath configuration interaction (HCI) algorithm for strongly correlated
                 quantum chemistry calculations.</td>
+            </tr>
+            <tr>
+              <td><a href="https://github.com/jamesETsmith/fri-cc">FRI-CC</a></td>
+              <td>The fast randomized iteration algorithm applied to coupled cluster methods.</td>
             </tr>
           </tbody>
         </table>
