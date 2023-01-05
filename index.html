@@ -1,342 +1,250 @@
 <!DOCTYPE HTML>
 <!--
-  flatironinstitute.org
-  -->
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
 <html>
 
 <head>
-  <title>James E. T. Smith</title>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-  <link rel="stylesheet" href="assets/css/main.css" />
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-  <link rel="icon" href="images/psi.png" style="background: white;">
+	<title>James E. T. Smith, Ph.D.</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<link rel="icon" href="images/k4_planar.svg" style="background: white;">
 
 </head>
 
 <body class="is-preload">
-  <!-- Header -->
-  <header id="header">
-    <div class="inner">
-      <a href="#" class="image avatar"><img src="images/Headshot2.png" alt="" /></a>
-    </div>
-    <nav id="nav">
-      <ul>
-        <li><a href="#about" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">About</a></li>
-        <li><a href="#research" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Research</a></li>
-        <li><a href="#papers" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Papers</a></li>
-        <li><a href="#talks" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Talks</a></li>
-        <li><a href="#software" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Software</a></li>
-        <li><a href="blog.html" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Blog</a></li>
-        <!-- <li><a href="#contact" style="-webkit-tap-highlight-color: rgba(0, 0, 0, 0);">Contact</a></li> -->
-      </ul>
-    </nav>
-  </header>
-  <!-- Main -->
-  <div id="main">
-    <!-- About -->
-    <section id="about">
-      <header class="major">
-        <h2>James E. T. Smith, Ph.D.</h2>
-      </header>
-      <p>I'm currently a Member of the Technical Staff at <a href="https://lucata.com/">Lucata</a> where I work on
-        porting <a href="https://graphblas.org/">GraphBLAS</a> to Lucata's custom hardware.
-        Before that I was a Flatiron Research Fellow in the <a
-          href="https://www.simonsfoundation.org/flatiron/center-for-computational-quantum-physics/">Center for
-          Computational
-          Quantum Physics</a> at the <a href="https://www.simonsfoundation.org/flatiron/">Flatiron Institute</a>
-        developing more efficient and robust algorithms for quantum chemistry. For a detailed description
-        of my experience please see my <a href="pdfs/JAMES_SMITH_CV.pdf">CV</a>.
-      </p>
-    </section>
-    <!-- Two -->
-    <section id="research">
-      <h2>Graduate and Postdoc Research</h2>
-      <div class="row">
-        <div class="col-12 col-12-small">
-          <p>Generally speaking, my research focuses on two areas: 1) developing highly accurate methods for small to
-            medium sized molecules
-            and 2) maintaining and supporting the open source quantum chemistry package <a
-              href="https://github.com/pyscf/pyscf">PySCF</a>.
-            All of my projects involve a substantial amount of programming and I spend a lot of time studying and
-            improving the performance of software.</p>
 
-          <h4>High Accuracy Quantum Chemistry</h4>
-          <p>In graduate school, I worked on methods to treat "strong correlation", which often occurs in chemical
-            systems involving transition metals, bond breaking, or electronic excitations.
-            In systems likes these, we have to turn to expensive wave function based methods like <a
-              href="https://en.wikipedia.org/wiki/Multi-configurational_self-consistent_field#Complete_active_space_SCF">CASSCF</a>.
-            To apply these methods to larger and more complex (i.e. realistic) systems, I helped develop more efficient
-            approximate methods that yield accurate results at a greatly reduced cost.
-          </p>
+	<!-- Wrapper -->
+	<div id="wrapper">
 
-          Below are some of the systems I worked with. Try moving them around with your mouse, they're interactive!
-          <div class="col-12 col-12-small">
-            <div style="height:400px; width:400px; display: inline-block;" class='viewer_3Dmoljs' data-datatype='xyz'
-              data-backgroundcolor='0xf4f4f4'
-              data-href='https://raw.githubusercontent.com/jamesETsmith/hci_nuc_gradients/master/geometry_opt/hciscf/uhf_survey/_geometries/A.xyz'
-              data-style='stick;sphere:radius~0.5;'>
-            </div>
-            <div style="height:400px; width:400px;  display: inline-block;" class='viewer_3Dmoljs'
-              data-backgroundcolor='0xf4f4f4' data-datatype='xyz' data-href="assets/xyz/fe_porphyrin.xyz"
-              data-style='stick;sphere:radius~0.5;'>
-            </div>
-            <div style="height:400px; width:400px;  display: inline-block;" class='viewer_3Dmoljs'
-              data-backgroundcolor='0xf4f4f4' data-type="xyz" data-href="assets/xyz/ppix_anion.xyz"
-              data-style='stick;sphere:radius~0.5;'>
-            </div>
-            <div style="height:400px; width:400px;  display: inline-block;" class='viewer_3Dmoljs'
-              data-backgroundcolor='0xf4f4f4' data-type="xyz"
-              data-href="https://raw.githubusercontent.com/jamesETsmith/hci_nuc_gradients/master/gradients/ni_edt2/ni_edt2.xyz"
-              data-style='stick;sphere:radius~0.5;'>
-            </div>
-          </div>
+		<!-- Header -->
+		<header id="header" class="alt">
+			<span class="logo"><img src="images/Headshot2.png" alt="" style="width:25%; border-radius: 40%;" /></span>
+			<!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
+			<h1>James E. T. Smith, Ph.D.</h1>
+			<p>Software Engineer, Quantum Chemist</p>
+		</header>
 
-          <!-- <h4>PySCF</h4>
-          <p>More on this soon!</p> -->
+		<!-- Nav -->
+		<nav id="nav">
+			<ul>
+				<li><a href="#about" class="active">About</a></li>
+				<li><a href="#software">Software</a></li>
+				<li><a href="#talks">Talks</a></li>
+				<li><a href="#contact">Contact</a></li>
+			</ul>
+		</nav>
 
-        </div>
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Introduction -->
+			<section id="About" class="main special">
+				<header class="major">
+					<h2>About Me</h2>
+				</header>
+				<p>I'm currently a Member of the Technical Staff at <a href="https://lucata.com/">Lucata</a> where I
+					work on porting <a href="https://graphblas.org/">GraphBLAS</a> to Lucata's custom hardware.
+					My work involves mostly C/C++ languages and involves implementing highly parallel linear algebra
+					methods.
+					Before that I was a Flatiron Research Fellow in the <a
+						href="https://www.simonsfoundation.org/flatiron/center-for-computational-quantum-physics/">Center
+						for
+						Computational
+						Quantum Physics</a> at the <a href="https://www.simonsfoundation.org/flatiron/">Flatiron
+						Institute</a>
+					developing more efficient and robust algorithms for quantum chemistry. For a detailed description
+					of my experience and publications please see my <a href="pdfs/JAMES_SMITH_CV.pdf">CV</a>.
+				</p>
+
+				<!-- <img src="images/Headshot2.png"> -->
+
+				<footer class="major">
+					<ul class="actions special">
+						<li><a href="pdfs/JAMES_SMITH_CV.pdf" class="button">CV</a></li>
+					</ul>
+				</footer>
+
+			</section>
 
 
-      </div>
-
-    </section>
 
 
-    <!-- Papers -->
-    <section id="papers">
-      <h2>Preprints</h2>
-      <div class="row">
-        <div class="col-12 col-12-small">
-          <ol reversed>
-            <li>Samuel M. Greene, Robert J. Webber, <b>James E. T. Smith</b>, Jonathan Weare, Timothy C. Berkelbach.
-              <i>"Full Configuration Interaction Excited-State
-                Energies in Large Active Spaces from Randomized Subspace Iteration"</i>. (2022). <a
-                href="https://arxiv.org/abs/2201.12164"
-                class="button primary icon xsmall solid fa-external-link-alt">arXiv</a>
-            </li>
-            <li><b>James E. T. Smith</b>, Joonho Lee, Sandeep Sharma. <i>"Nuclear Gradients of Near-Exact Complete
-                Active
-                Space Self-Consistent Field Wave Functions"</i>. (2022).
-              <a href="https://doi.org/10.1063/5.0085515"
-                class="button primary icon xsmall solid fa-external-link-alt">DOI</a>
-              <a href="https://arxiv.org/abs/2201.06514"
-                class="button primary icon xsmall solid fa-external-link-alt">arXiv</a>
-              <a href="https://github.com/jamesETsmith/hci_nuc_gradients"
-                class="button primary icon xsmall solid fa-external-link-alt">Code</a>
-            </li>
+			<section id="software" class="main special">
+				<header class="major">
+					<h2>Software</h2>
+				</header>
+				<p>I contribute to a number of open source software projects, here are a few:</p>
+				<div class="table-wrapper">
+					<table class="alt">
+						<thead>
+							<tr>
+								<th style="width:33%">Name</th>
+								<th style="width:67%">Description</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="https://github.com/pyscf/pyscf">PySCF</a></td>
+								<td>An accessible Python package for quantum chemistry.</td>
+							</tr>
+							<tr>
+								<td><a href="https://github.com/sanshar/Dice">Dice</a></td>
+								<td>Implementation of the heat-bath configuration interaction (HCI) algorithm for
+									strongly correlated
+									quantum chemistry calculations.</td>
+							</tr>
+							<tr>
+								<td><a href="https://github.com/jamesETsmith/fri-cc">FRI-CC</a></td>
+								<td>The fast randomized iteration algorithm applied to coupled cluster methods.</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
 
-          </ol>
-        </div>
-      </div>
+			<section id="talks" class="main special">
+				<header class="major">
+					<h2>Talks</h2>
+				</header>
+				<div class="row">
+					<div class="col-12 col-12-small">
+						<ul>
+							<li><a href="https://jamesetsmith.github.io/2021_09_24_pyscf_overview_talk/">PySCF Overview
+									Talk</a>,
+								CCQ Retreat 2021</li>
+							<li><a href="https://jamesetsmith.github.io/SHCI_Talk_10_22_20/">SHCI: A Semi-Pedagogical
+									Introduction</a>,
+								Berkelbach Group Meeting 2020</li>
+						</ul>
+					</div>
+				</div>
+			</section>
 
-      <h2>Publications</h2>
-      <div class="row">
-        <div class="col-12 col-12-small">
-          <ol reversed>
-            <li>Wyatt Zagorec-Marks, <b>James E. T. Smith</b>, Madison M. Foreman, Sandeep Sharma, J. Mathias Weber.
-              <i>"Intrinsic Electronic Spectra of Cryogenically Prepared Protoporphyrin IX Ions in Vacuo –
-                Deprotonation-Induced Stark Shifts"</i>. Physical Chemistry Chemical Physics (2020) 22, 20295-20302. <a
-                href="https://doi.org/10.1039/D0CP03614E"
-                class="button primary icon xsmall solid fa-external-link-alt">DOI</a>
-              <a href="https://github.com/jamesETsmith/ppix_final"
-                class="button primary icon xsmall solid fa-external-link-alt">Code</a>
-            </li>
-            <li>Qiming Sun, Xing Zhang, Samragni Banerjee, Peng Bao, Marc Barbry, Nick S. Blunt, Nikolay A. Bogdanov,
-              George H. Booth, Jia Chen, Zhi-Hao Cui, Janus Juul Eriksen, Yang Gao, Sheng Guo, Jan Hermann, Matthew R.
-              Hermes, Kevin Koh, Peter Koval, Susi Lehtola, Zhendong Li, Junzi Liu, Narbe Mardirossian, James D.
-              McClain, Mario Motta, Bastien Mussard, Hung Q. Pham, Artem Pulkin, Wirawan Purwanto, Paul J. Robinson,
-              Enrico Ronca, Elvira Sayfutyarova, Maximilian Scheurer, Henry F. Schurkus, <b>James E. T. Smith</b>, Chong
-              Sun, Shi-Ning Sun, Shiv Upadhyay, Lucas K. Wagner, Xiao Wang, Alec White, James Daniel Whitfield, Mark J.
-              Williamson, Sebastian Wouters, Jun Yang, Jason M. Yu, Tianyu Zhu, Timothy C. Berkelbach, Sandeep Sharma,
-              Alexander Sokolov, Garnet Kin-Lic Chan. <i>"Recent
-                developments in the PySCF program package"</i>. J. Chem. Phys. 153, (2020) 024109.
-              <a href="https://doi.org/10.1063/5.0006074"
-                class="button primary icon xsmall solid fa-external-link-alt">DOI</a>
-            </li>
-            <li>Joel W. Clancey, Andrew S. Cavanagh, <b>James E. T. Smith</b>, Sandeep Sharma, and Steven M. George.
-              <i>"Volatile Etch Species Produced During Thermal Al<sub>2</sub>O<sub>3</sub> Atomic Layer Etching"</i>,
-              J. Phys. Chem. C, 124, (2020) 287-299.
-              <a href="https://doi.org/10.1021/acs.jpcc.9b06104"
-                class="button primary icon xsmall solid fa-external-link-alt">DOI</a>
-            </li>
-            <li>Giuseppe Carleo, Kenny Choo, Damian Hofmann, <b>James E. T. Smith</b>, Tom Westerhout,Fabien Alet, Emily
-              J. Davis, Stavros Efthymiou, Ivan Glasser, Sheng-Hsuan Lin, Marta Mauri, Guglielmo Mazzola, Christian B.
-              Mendl, Evert van Nieuwenburg, Ossian O’Reilly,Hugo Theveniaut, Giacomo Torlai, and Alexander
-              Wietek,<i>"NetKet: A Machine
-                Learning Toolkit for Many-Body Quantum Systems"</i>, SoftwareX, 10, (2019) 00311.
-              <a href="https://doi.org/10.1016/j.softx.2019.100311"
-                class="button primary icon xsmall solid fa-external-link-alt">DOI</a>
-            </li>
-            <li>Leah G. Dodson, Wyatt Zagorec-Marks, Shuang Xu, <b>James E. T. Smith</b>, J. Mathias Weber,
-              <i>"Intrinsic
-                photophysics of nitrophenolate ions studied by cryogenic ion spectroscopy"</i>, Phys. Chem. Chem.
-              Phys. (2018) 28535 - 28543.
-              <a href="https://doi.org/10.1039/C8CP06078A"
-                class="button primary icon xsmall solid fa-external-link-alt">DOI</a>
-            </li>
-            <li><b>James E. T. Smith</b> Bastien Mussard, Adam A. Holmes, Sandeep Sharma, <i>"Cheap
-                and near exact CASSCF with large active spaces"</i>, J. Chem. Theor. and Comp. 13 (2017)
-              5468-5478. <i><b>(Editor's Choice)</b></i>.
-              <a href="https://doi.org/10.1021/acs.jctc.7b00900"
-                class="button primary icon xsmall solid fa-external-link-alt">DOI</a>
-              <a href="https://arxiv.org/abs/1708.07544"
-                class="button primary icon xsmall solid fa-external-link-alt">arXiv</a>
-              <a href="https://github.com/jamesETsmith/JCTC-11-5468"
-                class="button primary icon xsmall solid fa-external-link-alt">Code</a>
-            </li>
-            <li>Shuang Xu, <b>James E. T. Smith</b>, Samer Gozem, Anna I. Krylov, J. Mathias Weber. <i> "Electronic
-                Spectra of
-                Tris(2,2'-bipyridine)-M(II) Complex Ions in Vacuo (M = Fe and Os)"</i>, Inorg. Chem. 56, (2017)
-              7029–7037.
-              <a href="https://doi.org/10.1021/acs.inorgchem.7b00620"
-                class="button primary icon xsmall solid fa-external-link-alt">DOI</a>
-            </li>
-            <li>Shuang Xu, <b>James E. T. Smith</b>, J. Mathias Weber, <i>"UV Spectra of
-                Tris(2,2'-bipyridine)-M(II) Complex Ions in Vacuo (M = Mn, Fe, Co, Ni, Cu, Zn)"</i>, Inorg. Chem.
-              55 (2016) 11937–11943.
-              <a href="https://doi.org/10.1021/acs.inorgchem.6b02054"
-                class="button primary icon xsmall solid fa-external-link-alt">DOI</a>
-            </li>
-            <li>S. Xu, <b>James E. T. Smith</b>, J. M. Weber, <i>"Hydration of a
-                Binding Site with Restricted Solvent Access – Solvatochromic Shift of the Electronic Spectrum of a
-                Ruthenium Polypyridine Complex, One Molecule at a Time"</i>, J. Phys. Chem. A, 120 (2016)
-              7650–7658.
-              <a href="https://doi.org/10.1021/acs.jpca.6b07668"
-                class="button primary icon xsmall solid fa-external-link-alt">DOI</a>
-            </li>
-            <li> Shuang Xu, <b>James E. T. Smith</b>, J. Mathias Weber, <i>"The Electronic Spectrum of
-                Cryogenic Ruthenium-Tris-Bipyridine Dications in Vacuo"</i>, J. Chem. Phys. 145 (2016) 024304.
-              <a href="https://doi.org/10.1063/1.4955262"
-                class="button primary icon xsmall solid fa-external-link-alt">DOI</a>
-            </li>
-            <li> Shuang Xu, <b>James E. T. Smith</b>, J. Mathias Weber, <i>"Ligand Influence on the Electronic Spectra
-                of Dicationic Ruthenium-Bipyridine-Terpyridine Complexes"</i>, J. Phys. Chem. A 120 (2016)
-              2350–2356.
-              <a href="https://doi.org/10.1021/acs.jpca.6b02926"
-                class="button primary icon xsmall solid fa-external-link-alt">DOI</a>
-            </li>
-          </ol>
-          <ul class="actions">
-            <li><a href="https://scholar.google.com/citations?user=MdVPbsYAAAAJ" class="button">All Publications</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <!-- Talks -->
-    <section id="talks">
-      <h2>Talks</h2>
-      <div class="row">
-        <div class="col-12 col-12-small">
-          <ul>
-            <li><a href="https://jamesetsmith.github.io/2021_09_24_pyscf_overview_talk/">PySCF Overview Talk</a>,
-              CCQ Retreat 2021</li>
-            <li><a href="https://jamesetsmith.github.io/SHCI_Talk_10_22_20/">SHCI: A Semi-Pedagogical Introduction</a>,
-              Berkelbach Group Meeting 2020</li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <!-- Five -->
-    <section id="software">
-      <h2>Software</h2>
-      <p>I contribute to a number of open source software projects.</p>
-      <div class="table-wrapper">
-        <table class="alt">
-          <thead>
-            <tr>
-              <th>Name</th>
-              <th>Description</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td><a href="https://github.com/pyscf/pyscf">PySCF</a></td>
-              <td>An accessible Python package for quantum chemistry.</td>
-            </tr>
-            <tr>
-              <td><a href="https://github.com/sanshar/Dice">Dice</a></td>
-              <td>Implementation of the heat-bath configuration interaction (HCI) algorithm for strongly correlated
-                quantum chemistry calculations.</td>
-            </tr>
-            <tr>
-              <td><a href="https://github.com/jamesETsmith/fri-cc">FRI-CC</a></td>
-              <td>The fast randomized iteration algorithm applied to coupled cluster methods.</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </section>
-    <!-- Six -->
-    <!-- <section id="contact">
-      <h2>Contact</h2>
-      <div class="row">
-        <div class="col-6 col-12-small">
-          <ul class="labeled-icons">
-            <li>
-              <h3 class="icon solid fa-home"><span class="label">Address</span></h3>
-              160 Fifth Avenue<br />
-              New York, NY 10010<br />
-              United States
-            </li>
-            <li>
-              <h3 class="icon solid fa-envelope"><span class="label">Email</span></h3>
-              <a href="mailto:USER_EMAIL">james.smith9113[at]gmail.com</a>
-            </li>
-          </ul>
-        </div>
-        <div class="col-6 col-12-small">
-          <a href="https://www.simonsfoundation.org/flatiron/" class="image fit logo">
-            <img src="images/logo.svg" alt="logo" />
-          </a>
-        </div>
-      </div>
-    </section> -->
-  </div>
-  <!--  -->
-  <!-- Footer -->
-  <!--  -->
-  <footer id="footer">
-    <div class="inner">
-      <ul class="icons">
-        <li><a href="https://github.com/jamesETsmith" class="icon brands fa-github"><span
-              class="label">Github</span></a></li>
-        <li><a href="https://www.linkedin.com/in/james-smith-ph-d-8525792b" class="icon brands fa-linkedin"><span
-              class="label">LinkedIn</span></a></li>
-        <li style="font-size:1.5em; padding:0 1em 0 0.5em"><a
-            href=" https://scholar.google.com/citations?user=MdVPbsYAAAAJ" class="ai ai-google-scholar ai-1g"></a>
-        </li>
-        <li style="font-size:1.5em;"><a href="https://orcid.org/0000-0002-5130-8633" class="ai ai-orcid ai-1g"></a>
-        </li>
-        <li><a href="mailto:james.smith9113@gmail.com" class="icon solid fa-envelope"><span
-              class="label">Email</span></a></li>
-      </ul>
-      <ul class="copyright">
-        <!-- TODO: Add your name here -->
-        <li id="year">&copy; James E. T. Smith</li>
-        <!-- <li><a href="http://flatironinstitute.org">Flatiron Institute</a></li> -->
-      </ul>
-    </div>
-  </footer>
-  <!--  -->
-  <!-- Scripts -->
-  <!--  -->
-  <script src="assets/js/jquery.min.js"></script>
-  <script src="assets/js/jquery.scrollex.min.js"></script>
-  <script src="assets/js/jquery.scrolly.min.js"></script>
-  <script src="assets/js/browser.min.js"></script>
-  <script src="assets/js/breakpoints.min.js"></script>
-  <script src="assets/js/util.js"></script>
-  <script src="assets/js/main.js"></script>
-  <script src="https://3Dmol.csb.pitt.edu/build/3Dmol-min.js"></script>
+			<!-- Second Section -->
+			<!-- <section id="second" class="main special">
+				<header class="major">
+					<h2>Ipsum consequat</h2>
+					<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
+						posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+				</header>
+				<ul class="statistics">
+					<li class="style1">
+						<span class="icon solid fa-code-branch"></span>
+						<strong>5,120</strong> Etiam
+					</li>
+					<li class="style2">
+						<span class="icon fa-folder-open"></span>
+						<strong>8,192</strong> Magna
+					</li>
+					<li class="style3">
+						<span class="icon solid fa-signal"></span>
+						<strong>2,048</strong> Tempus
+					</li>
+					<li class="style4">
+						<span class="icon solid fa-laptop"></span>
+						<strong>4,096</strong> Aliquam
+					</li>
+					<li class="style5">
+						<span class="icon fa-gem"></span>
+						<strong>1,024</strong> Nullam
+					</li>
+				</ul>
+				<p class="content">Nam elementum nisl et mi a commodo porttitor. Morbi sit amet nisl eu arcu faucibus
+					hendrerit vel a risus. Nam a orci mi, elementum ac arcu sit amet, fermentum pellentesque et purus.
+					Integer maximus varius lorem, sed convallis diam accumsan sed. Etiam porttitor placerat sapien, sed
+					eleifend a enim pulvinar faucibus semper quis ut arcu. Ut non nisl a mollis est efficitur
+					vestibulum. Integer eget purus nec nulla mattis et accumsan ut magna libero. Morbi auctor iaculis
+					porttitor. Sed ut magna ac risus et hendrerit scelerisque. Praesent eleifend lacus in lectus aliquam
+					porta. Cras eu ornare dui curabitur lacinia.</p>
+				<footer class="major">
+					<ul class="actions special">
+						<li><a href="generic.html" class="button">Learn More</a></li>
+					</ul>
+				</footer>
+			</section> -->
 
-  <script>
-  </script>
+			<!-- Contact -->
+			<section id="contact" class="main special">
+				<header class="major">
+					<h2>Contact</h2>
+				</header>
+				<ul class="icons">
+					<li><a href="https://github.com/jamesETsmith" class="icon brands fa-github fa-3x"><span
+								class="label">Github</span></a></li>
+					<li><a href="https://www.linkedin.com/in/james-smith-ph-d-8525792b"
+							class="icon brands fa-linkedin fa-3x"><span class="label">LinkedIn</span></a></li>
+					<li><a href="mailto:james.smith9113@gmail.com" class="icon solid fa-envelope fa-3x"><span
+								class="label">Email</span></a></li>
+				</ul>
+			</section>
 
-  <!-- TODO: Remove if not using Mathjax -->
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+			<!-- Get Started -->
+			<!-- <section id="cta" class="main special">
+				<header class="major">
+					<h2>Congue imperdiet</h2>
+					<p>Donec imperdiet consequat consequat. Suspendisse feugiat congue<br />
+						posuere. Nulla massa urna, fermentum eget quam aliquet.</p>
+				</header>
+				<footer class="major">
+					<ul class="actions special">
+						<li><a href="generic.html" class="button primary">Get Started</a></li>
+						<li><a href="generic.html" class="button">Learn More</a></li>
+					</ul>
+				</footer>
+			</section> -->
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<!-- <section>
+				<h2>Aliquam sed mauris</h2>
+				<p>Sed lorem ipsum dolor sit amet et nullam consequat feugiat consequat magna adipiscing tempus etiam
+					dolore veroeros. eget dapibus mauris. Cras aliquet, nisl ut viverra sollicitudin, ligula erat
+					egestas velit, vitae tincidunt odio.</p>
+				<ul class="actions">
+					<li><a href="generic.html" class="button">Learn More</a></li>
+				</ul>
+			</section>
+			<section>
+				<h2>Etiam feugiat</h2>
+				<dl class="alt">
+					<dt>Address</dt>
+					<dd>1234 Somewhere Road &bull; Nashville, TN 00000 &bull; USA</dd>
+					<dt>Phone</dt>
+					<dd>(000) 000-0000 x 0000</dd>
+					<dt>Email</dt>
+					<dd><a href="#">information@untitled.tld</a></dd>
+				</dl>
+				<ul class="icons">
+					<li><a href="#" class="icon brands fa-twitter alt"><span class="label">Twitter</span></a></li>
+					<li><a href="#" class="icon brands fa-facebook-f alt"><span class="label">Facebook</span></a></li>
+					<li><a href="#" class="icon brands fa-instagram alt"><span class="label">Instagram</span></a></li>
+					<li><a href="#" class="icon brands fa-github alt"><span class="label">GitHub</span></a></li>
+					<li><a href="#" class="icon brands fa-dribbble alt"><span class="label">Dribbble</span></a></li>
+				</ul>
+			</section> -->
+			<p class="copyright">&copy; James E. T. Smith, Ph.D. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
 </body>
 
 </html>
