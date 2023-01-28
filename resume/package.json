@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "init": "resumed init",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "jsonresume-theme-caffeine": "^1.2.3",
+    "jsonresume-theme-elegant": "^1.16.1",
+    "jsonresume-theme-even": "^0.17.0",
+    "jsonresume-theme-stackoverflow": "^2.0.0",
+    "jsonresume-theme-flat": "^0.3.7",
+    "puppeteer": "^19.0.0",
+    "resumed": "^3.0.0"
+  }
+}

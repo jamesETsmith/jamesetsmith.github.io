@@ -1,3 +1,7 @@
+# resume stuff
+package-lock.json
+node_modules
+
 # Logs
 logs
 *.log
