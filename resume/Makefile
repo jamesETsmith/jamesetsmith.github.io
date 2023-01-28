@@ -6,7 +6,6 @@ dependencies:
 
 	npm install
 	mkdir -p pdf html
-	cp headshot.png html/.
 
 html: dependencies
 	@echo "\nGenerating HTML"

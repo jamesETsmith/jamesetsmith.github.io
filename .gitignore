@@ -1,6 +1,7 @@
 # resume stuff
 package-lock.json
 node_modules
+.comments
 
 # Logs
 logs
