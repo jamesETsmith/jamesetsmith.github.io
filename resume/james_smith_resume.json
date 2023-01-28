@@ -3,8 +3,8 @@
   "basics": {
     "name": "James E. T. Smith, Ph.D.",
     "label": "Software Engineer",
-    "image": "headshot.png",
-    "picture": "headshot.png",
+    "image": "headshot_small.png",
+    "picture": "headshot_small.png",
     "email": "jsmith@lucata.com",
     "phone": "+1 (508)-596-7110",
     "url": "https://jamesetsmith.github.io/",
@@ -158,13 +158,13 @@
     {
       "name": "DevOps",
       "keywords": [
+        "git",
         "Make",
         "CMake",
         "GitHub Actions",
         "Continuous Integration",
-        "Code coverage",
         "clang-tidy",
-        "git"
+        "Code coverage"
       ]
     }
   ],

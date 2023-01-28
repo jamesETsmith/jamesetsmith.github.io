@@ -1,3 +1,5 @@
+THEMES = even caffeine elegant stackoverflow flat
+
 
 dependencies:
 	@echo "\nInstalling dependencies"
@@ -9,26 +11,15 @@ dependencies:
 html: dependencies
 	@echo "\nGenerating HTML"
 
-# for THEME in even caffeine elegant ; do \
-# 		resumed render james_smith_resume.json \
-# 			-t jsonresume-theme-$$THEME        \
-# 			-o html/james_smith_resume_$$THEME.html ;\
-# done
-
-	for THEME in even caffeine elegant stackoverflow flat ; do \
-		resume export -r james_smith_resume.json --theme $$THEME --format html james_smith_resume_$$THEME.html ;\
-		mv james_smith_resume_$$THEME.html html/. ;\
+	for THEME in ${THEMES} ; do \
+		resume export -r james_smith_resume.json --theme $$THEME --format html html/james_smith_resume_$$THEME.html ;\
 	done
 
-	@echo "\nHacky stuff to get profile pic to work\n"
-	# sed -i 's/<img src=\"\"/<img src=\"headshot.png\"/g' html/james_smith_resume_caffeine.html
-	# sed -i 's/https:\/\/s.gravatar.com\/avatar\/da7b93c7e77ba03e11bdf6cd222e109f?s=100&amp;r=pg&amp;d=mm/headshot.png/g' html/james_smith_resume_elegant.html
-
-
-pdf: html
-	@echo "\nGenerating PDF"
-	puppeteer --margin-top 0 --margin-right 0 --margin-bottom 0 --margin-left 0 --format A4 print html/james_smith_resume_caffeine.html pdf/james_smith_resume_caffeine.pdf
-
+pdf: dependencies
+	@echo "\nGenerating PDF (currently broken bc it doesn't include headshot)"
+	for THEME in ${THEMES} ; do \
+		resume export -r james_smith_resume.json --theme $$THEME --format pdf pdf/james_smith_resume_$$THEME.pdf ;\
+	done
 
 clean:
 	rm -rf node_modules
