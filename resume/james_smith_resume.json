@@ -46,7 +46,7 @@
       "highlights": [
         "Implemented a highly multithreaded version of the GraphBLAS library in C/C++, using C++11/14/17.",
         "Optimized the multithreaded performance of our version of GraphBLAS and worked closely with the hardware team to improve performance of the Lucata Pathfinder architecture.",
-        "Overhauled the build system for the GraphBLAS project and set up continuous integration, testing, code coverage, and static linting.",
+        "Overhauled the CMake build system for the GraphBLAS project and set up continuous integration, testing, code coverage, and static linting.",
         "Collaborated with other teams regularly to address bugs and implement new features in the GraphBLAS library."
       ]
     },
@@ -56,8 +56,8 @@
       "location": "New York, NY",
       "position": "Flatiron Research Fellow",
       "url": "https://www.simonsfoundation.org/flatiron/center-for-computational-quantum-physics/",
-      "startDate": "2022-07-11",
-      "endDate": "2020-09-01",
+      "startDate": "2020-09-01",
+      "endDate": "2022-07-11",
       "summary": "Private research institute for high performance computing in basic science research.",
       "highlights": [
         "Implemented OpenMP parallelized stochastic compression methods for quantum chemistry in the open source C++ package FRI-CC.",
@@ -148,23 +148,21 @@
       "name": "Parallelism",
       "keywords": [
         "OpenMP",
-        "Cilk",
         "MPI",
-        "CUDA",
-        "VTune",
-        "Perf"
+        "Cilk",
+        "CUDA"
       ]
     },
     {
-      "name": "DevOps",
+      "name": "Tools",
       "keywords": [
         "git",
-        "Make",
         "CMake",
+        "VTune",
+        "Perf",
         "GitHub Actions",
-        "Continuous Integration",
         "clang-tidy",
-        "Code coverage"
+        "gcov"
       ]
     }
   ],
