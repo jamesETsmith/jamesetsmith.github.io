@@ -5,7 +5,7 @@
     "label": "Software Engineer",
     "image": "https://jamesetsmith.github.io/images/headshot_smaller.png",
     "picture": "https://jamesetsmith.github.io/images/headshot_smaller.png",
-    "email": "jsmith@lucata.com",
+    "email": "james.smith9113@gmail.com",
     "phone": "+1 (508)-596-7110",
     "url": "https://jamesetsmith.github.io/",
     "location": {
@@ -39,7 +39,7 @@
       "company": "Lucata Corporation",
       "location": "New York, NY",
       "position": "Member of the Technical Staff",
-      "url": "http://piedpiper.example.com",
+      "url": "https://lucata.com/",
       "startDate": "2022-07-11",
       "endDate": "",
       "summary": "The next generation computing architecture optimized for massive scale.",
@@ -158,11 +158,9 @@
       "keywords": [
         "git",
         "CMake",
+        "perf",
         "VTune",
-        "Perf",
-        "GitHub Actions",
-        "clang-tidy",
-        "gcov"
+        "GitHub Actions"
       ]
     }
   ],
