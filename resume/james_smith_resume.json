@@ -2,7 +2,7 @@
   "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
   "basics": {
     "name": "James E. T. Smith, Ph.D.",
-    "label": "Software Engineer",
+    "label": "HPC Software Engineer",
     "image": "https://jamesetsmith.github.io/images/headshot_smaller.png",
     "picture": "https://jamesetsmith.github.io/images/headshot_smaller.png",
     "email": "james.smith9113@gmail.com",
@@ -42,7 +42,7 @@
       "url": "https://lucata.com/",
       "startDate": "2022-07-11",
       "endDate": "",
-      "summary": "The next generation computing architecture optimized for massive scale.",
+      "summary": "Small startup developing custom architecture for sparse graph problems",
       "highlights": [
         "Implemented a highly multithreaded version of the GraphBLAS library in C/C++, using C++11/14/17.",
         "Optimized the multithreaded performance of our version of GraphBLAS and worked closely with the hardware team to improve performance of the Lucata Pathfinder architecture.",
@@ -138,10 +138,9 @@
     {
       "name": "Programming",
       "keywords": [
-        "C/C++ (>7 years)",
-        "Python (>8 years)",
-        "Julia (<1 year)",
-        "Rust (<1 year)"
+        "C/C++ (7+ years)",
+        "Python (8+ years)",
+        "Bash (8+ years)"
       ]
     },
     {
@@ -158,6 +157,7 @@
       "keywords": [
         "git",
         "CMake",
+        "gdb",
         "perf",
         "VTune",
         "GitHub Actions"
