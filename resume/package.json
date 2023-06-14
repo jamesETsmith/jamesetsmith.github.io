@@ -10,6 +10,7 @@
     "jsonresume-theme-elegant": "^1.16.1",
     "jsonresume-theme-even": "^0.17.0",
     "jsonresume-theme-flat": "^0.3.7",
+    "jsonresume-theme-spartacus": "^1.0.0",
     "jsonresume-theme-stackoverflow": "^2.0.0",
     "puppeteer": "^19.6.2",
     "puppeteer-cli": "^1.5.1",

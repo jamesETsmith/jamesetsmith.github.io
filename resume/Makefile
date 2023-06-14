@@ -1,5 +1,5 @@
 # User Settings
-THEMES = even caffeine elegant stackoverflow flat
+THEMES = even caffeine elegant stackoverflow flat spartacus
 PDF_THEME = caffeine
 
 #
@@ -28,10 +28,11 @@ pdf: dependencies
 		resume export -r james_smith_resume.json --theme $$THEME --format pdf pdf/james_smith_resume_$$THEME.pdf ;\
 	done
 	
-	@echo "\nTrimming margins on pdf resume and trimming last page (which is blank)"
-	pdfcrop --margins '-43 -32 -40 -0' --clip pdf/james_smith_resume_caffeine.pdf pdf/james_smith_resume_caffeine.pdf 
-	pdftk pdf/james_smith_resume_caffeine.pdf cat 1 output pdf/james_smith_resume.pdf
-	cp pdf/james_smith_resume.pdf pdf/james_smith_resume_caffeine.pdf
+	# @echo "\nTrimming margins on pdf resume and trimming last page (which is blank)"
+	# pdfcrop --margins '-43 -32 -40 -0' --clip pdf/james_smith_resume_caffeine.pdf pdf/james_smith_resume_caffeine.pdf 
+	# pdftk pdf/james_smith_resume_caffeine.pdf cat 1 output pdf/james_smith_resume.pdf
+	# cp pdf/james_smith_resume.pdf pdf/james_smith_resume_caffeine.pdf
+	cp pdf/james_smith_resume_stackoverflow.pdf pdf/james_smith_resume.pdf 
 
 # Clean up 
 clean:
