@@ -47,7 +47,7 @@
         "Implemented a highly multithreaded version of the GraphBLAS library in C/C++, using C++11/14/17.",
         "Optimized the multithreaded performance of Lucata's GraphBLAS implementation and worked closely with the hardware team to improve performance of the Lucata Pathfinder architecture.",
         "Consolidated and improved the CMake build system for Lucata's custom LLVM 14 compiler.",
-        "Overhauled the CMake build system for the GraphBLAS project and set up continuous integration, testing, code coverage, and static linting.",
+        "Overhauled the CMake build system for the LucataGraphBLAS project and set up continuous integration, testing, code coverage, and static linting.",
         "Collaborated with other teams regularly to address bugs and implement new features in the GraphBLAS library."
       ]
     },
@@ -141,7 +141,8 @@
       "keywords": [
         "C/C++ (7+ years)",
         "Python (8+ years)",
-        "Bash (8+ years)"
+        "Bash (8+ years)",
+        "Rust (<1 year)"
       ]
     },
     {
@@ -161,6 +162,7 @@
         "gdb",
         "perf",
         "VTune",
+        "clang-tidy",
         "GitHub Actions"
       ]
     }
