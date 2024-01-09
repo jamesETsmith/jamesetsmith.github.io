@@ -9,12 +9,12 @@
     date: [Jul. 2022 - Present],
     location: [New York, NY],
     description: list(
-      [Developed a highly multithreaded version of the GraphBLAS library in C/C++, using C++11/14/17.],
-      [Optimized the multithreaded performance of Lucata's GraphBLAS implementation and worked closely with the hardware team to improve performance of the Lucata Pathfinder architecture.],
-      [Collaborated with other teams regularly to address bugs and implement new features in the GraphBLAS library.],
-      [Consolidated and improved the CMake build system for Lucata's custom LLVM 14 compiler.],
+      [Developed a highly multithreaded version of the GraphBLAS library in C/C++, using C++17 and Cilk.],
+      [Optimized the multithreaded performance of Lucata's GraphBLAS implementation by improving the utlization of the Lucata's proprietary hardware architecture.],
+      [Collaborated with other teams regularly to address bugs and implement new features in the GraphBLAS and other graph analytics libraries.],
       [Overhauled the CMake infrastructure for the Lucata software ecosystem and set up continuous integration, testing, code coverage, and static linting for nearly all projects.],
-      [Implemented std::ranges::iota in libc++, LLVM's version of the C++ standard library.]
+      [Consolidated and improved the CMake build system for Lucata's custom LLVM 14 compiler.],
+      [Contributed to the LLVM open source project by implementing std::ranges::iota (part of C++23 standard) in libc++, LLVM's version of the C++ standard library.]
     ),
     tags: ("C++", "C++17","C", "multithreading", "Cilk", "CMake", "CI", "LLVM", "Linux")
 )

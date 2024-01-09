@@ -4,7 +4,7 @@
 
 #cvSkill(
   type: [Programming],
-  info: ("C/C++ (7+ years)", "Python (8+ years)", "CMake (5+ years)", "Rust (\<1 year)")
+  info: ("C/C++ (7+ years)", "Python (8+ years)", "CMake (5+ years)", "Rust (<1 year)")
 )
 
 #cvSkill(
