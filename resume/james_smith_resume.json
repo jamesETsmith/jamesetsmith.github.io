@@ -9,11 +9,11 @@
     "phone": "+1 (508)-596-7110",
     "url": "https://jamesetsmith.github.io/",
     "location": {
-      "address": "270 W 39th St",
-      "postalCode": "NY 10018",
-      "city": "New York",
+      "address": "",
+      "postalCode": "",
+      "city": "Union City",
       "countryCode": "US",
-      "region": "New York"
+      "region": "New Jersey"
     },
     "profiles": [
       {
@@ -42,13 +42,14 @@
       "url": "https://lucata.com/",
       "startDate": "2022-07-11",
       "endDate": "",
-      "summary": "Small startup developing custom architecture for sparse graph problems",
+      "summary": "",
       "highlights": [
         "Implemented a highly multithreaded version of the GraphBLAS library in C/C++, using C++11/14/17.",
         "Optimized the multithreaded performance of Lucata's GraphBLAS implementation and worked closely with the hardware team to improve performance of the Lucata Pathfinder architecture.",
         "Consolidated and improved the CMake build system for Lucata's custom LLVM 14 compiler.",
         "Overhauled the CMake build system for the LucataGraphBLAS project and set up continuous integration, testing, code coverage, and static linting.",
-        "Collaborated with other teams regularly to address bugs and implement new features in the GraphBLAS library."
+        "Collaborated with other teams regularly to address bugs and implement new features in the GraphBLAS library.",
+        "Implemented ranges::iota in LLVM's implementation of the C++ standard library, libc++."
       ]
     },
     {
@@ -59,7 +60,7 @@
       "url": "https://www.simonsfoundation.org/flatiron/center-for-computational-quantum-physics/",
       "startDate": "2020-09-01",
       "endDate": "2022-07-11",
-      "summary": "Private research institute for high performance computing in basic science research.",
+      "summary": "",
       "highlights": [
         "Implemented OpenMP parallelized stochastic compression methods for quantum chemistry in the open source C++ package FRI-CC.",
         "Contributed features, bug fixes, and documentation as one of the primary maintainers for the open source Python/C package PySCF.",
@@ -75,7 +76,7 @@
       "url": "https://www.colorado.edu/lab/sharmagroup/",
       "startDate": "2014-08-01",
       "endDate": "2020-09-01",
-      "summary": "Public research university.",
+      "summary": "",
       "highlights": [
         "Implemented a hybrid MPI-OpenMP parallelized version of the HCI algorithm in the Sharma Group's C++ software Dice",
         "Built decision tree and graph neural network models to predict etching reaction outcomes and trained these models with experimentally observed data.",
