@@ -4,12 +4,12 @@
 
 #cvSkill(
   type: [Programming],
-  info: ("C/C++ (7+ years)", "Python (8+ years)", "CMake (5+ years)", "Rust (<1 year)")
+  info: ("C/C++ (8+ years)", "Python (9+ years)", "CMake (6+ years)", "Rust (<1 year)")
 )
 
 #cvSkill(
   type: [Parallelism],
-  info: ("OpenMP" , "MPI" , "Cilk" , "CUDA")
+  info: ("OpenMP", "CUDA", "Cilk", "MPI" )
 )
 
 #cvSkill(
