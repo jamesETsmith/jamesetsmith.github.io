@@ -3,18 +3,16 @@
 #cvSection("Professional Experience")
 
 #cvEntry(
-  title: [HPC Software Engineer],
+  title: [Director of HPC Engineering],
   society: [Qognitive Inc.],
   logo: "",
   date:[Jan. 2024-Present],
   location: [New York, NY],
   description: list(
+    [Team leader for collaboration with IBM's Quantum Computing team. Worked alongside their research team to deploy our models on their quantum hardware and develop new model architectures to improve efficiency on their hardware.],
+    [Lead developer for our open-source C++/Python project fast-pauli, which provides high-performance primitives for simulating Pauli-based quantum circuits.],
     [Developed and implemented novel machine learning algorithms in Python, C++, and PyTorch for Qognitive's propriety SaaS product.],
     [Ported over existing models to PyTorch and optimized implementation for performance on GPUs yielding in a 10x speedup for several of our models.],
-    [Team leader for collaboration with IBM's Quantum Computing team. Worked alongside their research team to deploy our models on their quantum hardware and develop new models achitectures to improve efficiency on their hardware.],
-    // [Extended existing models to handle time series data for weather and financian modeling.],
-    [Primary maintainer for our open-source C++/Python project fast-pauli, which provides high-performance primitives for simulating Pauli-based quantum circuits.]
-    ,
     [Contributed to the LLVM open source project by implementing std::ranges::iota (part of C++23 standard) in libc++, LLVM's version of the C++ standard library.]
   ),
   tags: ("C++", "C++23", "Python","PyTorch", "Machine Learning", "Quantum Computing", "Numerical Linear Algebra", "Linux")
@@ -24,7 +22,7 @@
     title: [Member of the Technical Staff],
     society: [Lucata Corporation],
     logo: "",
-    date: [Jul. 2022 - Present],
+    date: [Jul. 2022 - Jan. 2024],
     location: [New York, NY],
     description: list(
       [Developed a highly multithreaded version of the GraphBLAS library in C/C++, using C++17 and Cilk.],
