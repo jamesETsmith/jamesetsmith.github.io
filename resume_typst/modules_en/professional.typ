@@ -55,7 +55,7 @@
     society: [University of Colorado Boulder],
     logo: "",
     date: [Aug. 2014 - Aug. 2020],
-    location: [New York, NY],
+    location: [Boulder, CO],
     description: list(
       [Implemented a hybrid MPI-OpenMP parallelized version of the HCI algorithm in the Sharma Group's C++ software Dice.],
       [Built decision tree and graph neural network models to predict etching reaction outcomes and trained these models with experimentally observed data.],
