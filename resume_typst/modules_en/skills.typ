@@ -14,5 +14,5 @@
 
 #cvSkill(
   type: [Tools],
-  info: ("git" , "perf" , "VTune" , "gdb" , "clang-tidy" , "GitHub Actions")
+  info: ("git" , "perf" , "VTune" , "GitHub Actions")
 )

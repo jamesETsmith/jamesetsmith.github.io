@@ -42,8 +42,8 @@
     date: [Sep. 2020 - Jun. 2022],
     location: [New York, NY],
     description: list(
-      [Implemented OpenMP parallelized stochastic compression methods for quantum chemistry in the open source C++ package FRI-CC.],
-      [Contributed features, bug fixes, and documentation as one of the primary maintainers for the open source Python/C package PySCF.],
+      [Implemented OpenMP parallelized stochastic compression methods for quantum chemistry in the open source C++ package FRI-CC which improved the asymptotic scaling of high-accuracy coupled-cluster methods],
+      [Contributed features, bug fixes, and documentation as one of the primary maintainers for the open source electronic structure package, PySCF.],
       [Worked closely with the core team of PySCF developers improve the CMake build system and PyPI distribution after the release of PySCF v2.0.0.],
       [Organized workshops to help members of the Flatiron community better utilize high performance computing resources as part of the Sciware working group.],
     ),
@@ -57,10 +57,11 @@
     date: [Aug. 2014 - Aug. 2020],
     location: [Boulder, CO],
     description: list(
-      [Implemented a hybrid MPI-OpenMP parallelized version of the HCI algorithm in the Sharma Group's C++ software Dice.],
+      [Implemented a hybrid MPI-OpenMP parallelized version of the Heatbath Configuration Interaction (HCI) algorithm in the Sharma Group's C++ software Dice.],
+      [Derived and implemented gradients of the HCI electronic Hamiltonian with respect to atomic positions enabling first-principles geometry optimization.],
       [Built decision tree and graph neural network models to predict etching reaction outcomes and trained these models with experimentally observed data.],
-      [Frequently contributed to the PySCF quantum chemistry package, implementing new features and handling bug reports.],
-      [Wrote a new module for the PySCF package to interface with Dice enabling the investigation previously intractable systems.],
+      [Frequently contributed to the open source PySCF quantum chemistry package, implementing new methods, features and handling bug reports.],
+      [Wrote a new module for the PySCF package to interface with Dice enabling the investigation of previously intractable systems.],
       [Organized and led a workshop on software best practices for graduate students and post doctoral researchers with staff from the Molecular Sciences Software Institute (MOLSSI).],
     ),
     tags: ("Python", "C++", "C++11", "multithreading", "OpenMP", "MPI", "CMake", "machine learning", "scikit-learn", "Linux")

@@ -22,7 +22,7 @@
 /* Language-specific */
 // Add your own languages while the keys must match the varLanguage variable
 #let headerQuoteInternational = (
-  "en": [Software engineer with experience in high performance computing, numerical linear algebra, and quantum chemistry.],
+  "en": [Software engineer with experience in high performance computing, numerical linear algebra, and quantum chemistry, looking to work at the intersection of research and engineering teams.],
 )
 
 #let cvFooterInternational = (
