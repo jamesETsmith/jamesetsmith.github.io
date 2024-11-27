@@ -11,6 +11,7 @@
   description: list(
     [Team leader for collaboration with IBM's Quantum Computing team. Worked alongside their research team to deploy our models on their quantum hardware and develop new model architectures to improve efficiency on their hardware.],
     [Lead developer for our open-source C++/Python project fast-pauli, which provides high-performance primitives for simulating Pauli-based quantum circuits.],
+    [Worked between the machine learning research team and the infrastructure team to scale machine learning models from prototype to production],
     [Developed and implemented novel machine learning algorithms in Python, C++, and PyTorch for Qognitive's propriety SaaS product.],
     [Ported over existing models to PyTorch and optimized implementation for performance on GPUs yielding in a 10x speedup for several of our models.],
     [Contributed to the LLVM open source project by implementing std::ranges::iota (part of C++23 standard) in libc++, LLVM's version of the C++ standard library.]
